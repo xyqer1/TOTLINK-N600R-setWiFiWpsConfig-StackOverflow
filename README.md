@@ -6,6 +6,8 @@ By analyzing the cstecgi.cgi file in the cgi-bin directory, I found that the fun
 
 The stack overflow can be triggered by the pin key value, which leads to a sprintf overflow.
 
+![image-20241216170904967](https://gitee.com/xyqer/pic/raw/master/202412191530577.png)
+
 ## How can we simulate a router
 
 ﻿Use the following command to simulate with qemu.
